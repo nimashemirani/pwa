@@ -10,8 +10,13 @@
 // To learn more about the benefits of this model and instructions on how to
 // opt-in, read https://cra.link/PWA
 
+
+// این فایل serviceWorkerRegistration.js وظیفه‌ی گزارش دادن از اینکه ورکر سرویس شما به درستی ثبت شده یا نه را انجام می‌دهد. 
+// اگر به فایل نگاه کنید، چندین کانسول لاگ را مشاهده خواهید کرد که بسته به وضعیت ورکر سرویس پس از انتشار برنامه، نشان داده خواهند شد.
+
+
 const isLocalhost = Boolean(
-  window.location.hostname === 'localhost' ||
+  window.location.hostname === 'localhost' || 
     // [::1] is the IPv6 localhost address.
     window.location.hostname === '[::1]' ||
     // 127.0.0.0/8 are considered localhost for IPv4.

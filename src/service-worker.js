@@ -1,5 +1,9 @@
 /* eslint-disable no-restricted-globals */
 
+//فایل service-worker.js: این یک اسکریپت است که پس از اجرای برنامه شما به صورت پنهان اجرا می‌شود.
+//  سرویس ورکر اطمینان می‌حاصل ‌می‌کند که شما می‌توانید از برنامه React 
+// خود به صورت آفلاین استفاده کنید و درخواست‌های متعدد برای رابط کاربری را اداره کند.
+
 // This service worker can be customized!
 // See https://developers.google.com/web/tools/workbox/modules
 // for the list of available Workbox modules, or add any other
